@@ -1,0 +1,11 @@
+﻿@model PracticeGround.Models.ArticleModel
+<!--Start Featured Offers Carousel-->
+<Div>
+    <div><div>Author: @Model.Author</div> <div>Date: @Model.Date</div></div>
+
+   <h1>@Model.Topic</h1>
+    <div>
+        @Html.Raw(Model.Body);
+    </div>
+</Div>
+<!--End Featured Offers Carousel-->
